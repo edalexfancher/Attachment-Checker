@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>E-Mail Service</title>
+    <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+    <div class="top">
+      <div class="wrapper">
+        <form><input type="button" id="send-1" value="Send" name=""></input></form>
+        <input type="button" value="Save Draft" name=""></input>
+        <input type="button" value="Discard" name=""></input>
+      </div>
+    </div>
+
+    <div id="alert">
+      <span id="closebtn">&times;</span>
+      <strong>Warning!</strong> Did you mean to upload an attachment?
+    </div>
+
+    <div class="message">
+      <div class="input-wrapper">
+        <label for="to">To:</label>
+        <input type="text" name="" id="to"><br></br>
+      </div>
+      <div class="input-wrapper">
+        <label for="to">Cc:</label>
+        <input type="text" name="" id="cc"><br></br>
+      </div>
+      <div class="input-wrapper">
+        <label for="to">Bcc:</label>
+        <input type="text" name="" id="bcc"><br></br>
+      </div>
+      <div class="input-wrapper">
+        <label for="to">Subject:</label>
+        <input type="text" name="" id="subject"><br></br>
+      </div>
+      <div class="input-wrapper">
+        <label for "attachments">Attachments:</label>
+        <input type="file" id="attach"></input>
+      </div>
+      <div class="input-wrapper">
+        <textarea name="" id="message" cols="30" row="20"></textarea>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <div class="wrapper">
+        <form><input type="button" id="send-2" value="Send" name=""></input></form>
+        <input type="button" value="Save Draft" name=""></input>
+        <input type="button" value="Discard" name=""></input>
+      </div>
+    </div>
+
+  </body>
+</html>
